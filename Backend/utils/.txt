@@ -1,0 +1,40 @@
+
+users: 
+"user": "691735cc85686267d6c33a84"   - in test use 
+"user": "691735e885686267d6c33a87",  - 
+"user": "691c3a4572ad7af962e6c376"   - deleted
+
+truck:
+69173a44fa48379716046961        - deleted
+69173af6fa48379716046964
+
+driver:
+69173ddbfa4837971604696e       - in test use
+69173e19fa48379716046970
+
+trip:
+6917401cfa48379716046977
+
+bilty:
+6917451d6f6c4af1eb75db59
+
+token for user 3
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MWMzYTQ1NzJhZDdhZjk2MmU2YzM3NiIsImlhdCI6MTc2MzQ1Nzc1NiwiZXhwIjoxNzY2MDQ5NzU2fQ.el3yJ7uQxLxLzW1oF86NrKkPZZyWVFq127gIeyUqBPA
+
+
+---------------------------------------------------------------
+test 2
+
+"user":
+    "id": "69217a669ef9b55c3f456c70",
+    "email": "manjeet78@gmail.com"
+    "password": "12345"
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5MjE3YTY2OWVmOWI1NWMzZjQ1NmM3MCIsImlhdCI6MTc2MzgwMjk5OCwiZXhwIjoxNzY2Mzk0OTk4fQ._Cn99v5pA_9ThiVi5lV2LIq63_nEWilOHqJd55C41DU"
+
+"truck":
+    "truckNumber": "78945612",
+    "_id": "69217d669ef9b55c3f456c78",
+
+"driver": 
+    "_id": "692180079ef9b55c3f456c80",
+    

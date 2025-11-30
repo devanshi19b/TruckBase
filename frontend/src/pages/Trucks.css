@@ -1,0 +1,114 @@
+.trip-page {
+  padding: 20px;
+}
+
+.trip-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-primary {
+  background: #2d6cdf;
+  padding: 10px 18px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: #1f55c3;
+}
+
+/******** FORM PANEL ********/
+
+.form-panel {
+  background: white;
+  padding: 25px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.12);
+  border-radius: 12px;
+  margin: 20px 0;
+  animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-10px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.btn-cancel {
+  background: #eee;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-cancel:hover {
+  background: #ddd;
+}
+
+/******** TABLE ********/
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.trip-table th {
+  background: #f0f4ff;
+  padding: 12px;
+  font-weight: 600;
+}
+
+.trip-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+}
+
+.actions-col button {
+  margin-right: 8px;
+}
+
+.btn-edit {
+  background: #ffb300;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background: #e63946;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.profile-page { padding:20px; }
+.profile-grid { display:flex; gap:20px; margin-top:12px; }
+.left { width:280px; }
+.right { flex:1; }
+
+.card { background:#fff; padding:16px; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.04); }
+.logo-preview { width:100%; height:150px; object-fit:contain; margin-bottom:12px; background:#f6f6f6; border-radius:8px; }
+
+.card.form input { width:100%; padding:8px; margin-bottom:8px; border-radius:6px; border:1px solid #ddd; }
+
+.row.actions { display:flex; gap:12px; margin-top:8px; }
+
+.btn { padding:8px 12px; border-radius:6px; border:1px solid #ddd; background:#fff; cursor:pointer; }
+.btn.primary { background:#0b2545; color:white; border:none; }
+.btn.danger { background:#e63946; color:white; border:none; }

@@ -1,0 +1,44 @@
+.sidebar {
+  width: 250px;
+  background: #2d6cdf;
+  color: white;
+  height: 100%;
+  position: fixed;
+  left: -250px;
+  top: 0;
+  transition: all 0.3s;
+  z-index: 1000;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar-header {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background: #1f55c3;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-menu li {
+  padding: 15px 20px;
+}
+
+.sidebar-menu li.active,
+.sidebar-menu li:hover {
+  background: #1f55c3;
+}
+
+.sidebar-menu li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
