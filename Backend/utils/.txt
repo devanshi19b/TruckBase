@@ -1,6 +1,6 @@
 
 users: 
-"user": "691735cc85686267d6c33a84"   - in test use 
+"user": "691735cc85686267d6c33a84"   - in test use manjeet@example.com
 "user": "691735e885686267d6c33a87",  - 
 "user": "691c3a4572ad7af962e6c376"   - deleted
 
